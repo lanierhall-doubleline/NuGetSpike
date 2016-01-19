@@ -49,11 +49,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />
-  <ItemGroup>
-    <Content Include="Content\Plugins\NugetSpike\Readme.txt" />
-    <Content Include="Content\Plugins\NugetSpike\Tools\ConsoleEtl\console.exe" />
-    <Content Include="Content\Plugins\NugetSpike\Tools\Database\database.sql" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>echo ***Copying plugins to Presentation.Web\Plugins folder. ***
