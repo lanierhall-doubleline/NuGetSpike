@@ -1,0 +1,1 @@
+﻿namespace WebReferencedProject { public class WebReferencedProject { } }
