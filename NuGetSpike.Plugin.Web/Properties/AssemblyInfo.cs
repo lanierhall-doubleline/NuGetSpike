@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("NuGetSpike.Plugin.Web")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("main assembly")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Double Line Partners")]
 [assembly: AssemblyProduct("NuGetSpike.Plugin.Web")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]

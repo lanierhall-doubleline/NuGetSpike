@@ -5,9 +5,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("NuGetSpike.NugetPacker")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("nuget packer")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Double Line")]
+[assembly: AssemblyCompany("Double Line Partners")]
 [assembly: AssemblyProduct("NuGetSpike.NugetPacker")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
