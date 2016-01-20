@@ -12,6 +12,6 @@
     <tags>Tag1 Tag2</tags>
   </metadata>
   <files>
-    <file src="Plugins\**\*.*" target="EdFi.Dashboards.Presentation.Web\Plugins\**\*" /> 
+    <file src="Plugins\**\*.*" target="EdFi.Dashboards.Presentation.Web\Plugins" /> 
   </files>
 </package>
