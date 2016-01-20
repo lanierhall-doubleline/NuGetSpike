@@ -52,7 +52,7 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>echo ***Copying plugins to Plugins folder. ***
-robocopy $(TargetDir)\ $(SolutionDir)Content\Plugins\MyPlugin\ *.Plugin.*.dll /IS /IT /XF EdFi.Dashboards.Plugins.*.Resources.Tests.dll
+robocopy $(TargetDir)\ $(SolutionDir)Plugins\MyPlugin\ *.Plugin.*.dll /IS /IT /XF EdFi.Dashboards.Plugins.*.Resources.Tests.dll
 REM Supress error states 1-3, which are really success messages
 IF %25ERRORLEVEL%25 LEQ 3 cmd /c "exit /b 0"
 echo ***Finished copying plugin to Nuget Convention folders. ***</PostBuildEvent>
